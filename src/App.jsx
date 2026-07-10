@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import AddCar from './components/AddCar'
 import SearchCar from './components/SearchCar'
 import DeleteCar from './components/DeleteCar'
+import AllCars from './components/AllCars'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <Route path='/' element={<AddCar/>}/>
         <Route path='/search' element={<SearchCar/>}/>
         <Route path='/delete' element={<DeleteCar/>}/>
+        <Route path='/all' element={<AllCars/>}/>
       </Routes>
       </BrowserRouter>
     </>
