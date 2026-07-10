@@ -19,7 +19,7 @@ function App() {
         <Route path='/' element={<AddCar/>}/>
         <Route path='/search' element={<SearchCar/>}/>
         <Route path='/delete' element={<DeleteCar/>}/>
-        <Route path='/all' element={<AllCars/>}/>
+        <Route path='/viewall' element={<AllCars/>}/>
       </Routes>
       </BrowserRouter>
     </>

@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const AddCar = () => {
     return (
         <div>
+            <NavBar/>
             <div className="container py-5">
                 <div className="row">
                     <div className="text-center pb-4">

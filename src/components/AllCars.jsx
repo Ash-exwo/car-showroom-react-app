@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import NavBar from './NavBar'
 
 const AllCars = () => {
     const [data, changeData] = useState([])
@@ -22,7 +23,7 @@ const AllCars = () => {
     <div
             style={{ backgroundColor: "#F8FAFC", minHeight: "100vh" }}
         >
-
+            <NavBar/>
             <div className="container py-5">
 
                 <h2

@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 const DeleteCar = () => {
   return (
     <div>
+        <NavBar/>
         <div className="container mt-5">
                 <div className="row rounded-4 p-5 border-dark-subtle shadow">
                     <h2 className="fw-bold pb-3 text-center" style={{ color: "#1E3A8A" }}>
